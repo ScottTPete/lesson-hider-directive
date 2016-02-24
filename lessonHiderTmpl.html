@@ -1,0 +1,16 @@
+<!--<div>
+	<li>
+		<input ng-model='lesson'>
+		<button ng-click="dayAlert({lesson: lesson, day: lessonDay})">Click Me</button>
+		<input type="checkbox" ng-model="lesson">
+	</li>
+</div>-->
+
+
+<li>
+	
+	<input type="checkbox" ng-model="strikethrough" ng-click="toggle()"/> {{lesson}}
+	<button ng-click="dayAlert({lesson: lesson, day: lessonDay})">Click</button>
+	<button ng-click="remove()">Delete</button>
+	
+</li>
